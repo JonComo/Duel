@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8636EE2E1971CB6400996F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE2D1971CB6400996F76 /* Foundation.framework */; };
+		8636EE301971CB6400996F76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE2F1971CB6400996F76 /* CoreGraphics.framework */; };
+		8636EE321971CB6400996F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE311971CB6400996F76 /* UIKit.framework */; };
+		8636EE341971CB6400996F76 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE331971CB6400996F76 /* SpriteKit.framework */; };
+		8636EE3A1971CB6400996F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE381971CB6400996F76 /* InfoPlist.strings */; };
+		8636EE3C1971CB6400996F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE3B1971CB6400996F76 /* main.m */; };
+		8636EE401971CB6400996F76 /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE3F1971CB6400996F76 /* DLAppDelegate.m */; };
+		8636EE431971CB6400996F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE411971CB6400996F76 /* Main.storyboard */; };
+		8636EE461971CB6400996F76 /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE451971CB6400996F76 /* DLViewController.m */; };
+		8636EE491971CB6400996F76 /* DLMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE481971CB6400996F76 /* DLMyScene.m */; };
+		8636EE4B1971CB6400996F76 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE4A1971CB6400996F76 /* Spaceship.png */; };
+		8636EE4D1971CB6400996F76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE4C1971CB6400996F76 /* Images.xcassets */; };
+		8636EE541971CB6400996F76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE531971CB6400996F76 /* XCTest.framework */; };
+		8636EE551971CB6400996F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE2D1971CB6400996F76 /* Foundation.framework */; };
+		8636EE561971CB6400996F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE311971CB6400996F76 /* UIKit.framework */; };
+		8636EE5E1971CB6400996F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE5C1971CB6400996F76 /* InfoPlist.strings */; };
+		8636EE601971CB6400996F76 /* DuelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE5F1971CB6400996F76 /* DuelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8636EE571971CB6400996F76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8636EE221971CB6400996F76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8636EE291971CB6400996F76;
+			remoteInfo = Duel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8636EE2A1971CB6400996F76 /* Duel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8636EE2D1971CB6400996F76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8636EE2F1971CB6400996F76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8636EE311971CB6400996F76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8636EE331971CB6400996F76 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8636EE371971CB6400996F76 /* Duel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Duel-Info.plist"; sourceTree = "<group>"; };
+		8636EE391971CB6400996F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8636EE3B1971CB6400996F76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8636EE3D1971CB6400996F76 /* Duel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Duel-Prefix.pch"; sourceTree = "<group>"; };
+		8636EE3E1971CB6400996F76 /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
+		8636EE3F1971CB6400996F76 /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
+		8636EE421971CB6400996F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8636EE441971CB6400996F76 /* DLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
+		8636EE451971CB6400996F76 /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
+		8636EE471971CB6400996F76 /* DLMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLMyScene.h; sourceTree = "<group>"; };
+		8636EE481971CB6400996F76 /* DLMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLMyScene.m; sourceTree = "<group>"; };
+		8636EE4A1971CB6400996F76 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		8636EE4C1971CB6400996F76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8636EE521971CB6400996F76 /* DuelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8636EE531971CB6400996F76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8636EE5B1971CB6400996F76 /* DuelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuelTests-Info.plist"; sourceTree = "<group>"; };
+		8636EE5D1971CB6400996F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8636EE5F1971CB6400996F76 /* DuelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8636EE271971CB6400996F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8636EE301971CB6400996F76 /* CoreGraphics.framework in Frameworks */,
+				8636EE321971CB6400996F76 /* UIKit.framework in Frameworks */,
+				8636EE341971CB6400996F76 /* SpriteKit.framework in Frameworks */,
+				8636EE2E1971CB6400996F76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8636EE4F1971CB6400996F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8636EE541971CB6400996F76 /* XCTest.framework in Frameworks */,
+				8636EE561971CB6400996F76 /* UIKit.framework in Frameworks */,
+				8636EE551971CB6400996F76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8636EE211971CB6400996F76 = {
+			isa = PBXGroup;
+			children = (
+				8636EE351971CB6400996F76 /* Duel */,
+				8636EE591971CB6400996F76 /* DuelTests */,
+				8636EE2C1971CB6400996F76 /* Frameworks */,
+				8636EE2B1971CB6400996F76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8636EE2B1971CB6400996F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8636EE2A1971CB6400996F76 /* Duel.app */,
+				8636EE521971CB6400996F76 /* DuelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8636EE2C1971CB6400996F76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8636EE2D1971CB6400996F76 /* Foundation.framework */,
+				8636EE2F1971CB6400996F76 /* CoreGraphics.framework */,
+				8636EE311971CB6400996F76 /* UIKit.framework */,
+				8636EE331971CB6400996F76 /* SpriteKit.framework */,
+				8636EE531971CB6400996F76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8636EE351971CB6400996F76 /* Duel */ = {
+			isa = PBXGroup;
+			children = (
+				8636EE3E1971CB6400996F76 /* DLAppDelegate.h */,
+				8636EE3F1971CB6400996F76 /* DLAppDelegate.m */,
+				8636EE411971CB6400996F76 /* Main.storyboard */,
+				8636EE441971CB6400996F76 /* DLViewController.h */,
+				8636EE451971CB6400996F76 /* DLViewController.m */,
+				8636EE471971CB6400996F76 /* DLMyScene.h */,
+				8636EE481971CB6400996F76 /* DLMyScene.m */,
+				8636EE4A1971CB6400996F76 /* Spaceship.png */,
+				8636EE4C1971CB6400996F76 /* Images.xcassets */,
+				8636EE361971CB6400996F76 /* Supporting Files */,
+			);
+			path = Duel;
+			sourceTree = "<group>";
+		};
+		8636EE361971CB6400996F76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8636EE371971CB6400996F76 /* Duel-Info.plist */,
+				8636EE381971CB6400996F76 /* InfoPlist.strings */,
+				8636EE3B1971CB6400996F76 /* main.m */,
+				8636EE3D1971CB6400996F76 /* Duel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8636EE591971CB6400996F76 /* DuelTests */ = {
+			isa = PBXGroup;
+			children = (
+				8636EE5F1971CB6400996F76 /* DuelTests.m */,
+				8636EE5A1971CB6400996F76 /* Supporting Files */,
+			);
+			path = DuelTests;
+			sourceTree = "<group>";
+		};
+		8636EE5A1971CB6400996F76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8636EE5B1971CB6400996F76 /* DuelTests-Info.plist */,
+				8636EE5C1971CB6400996F76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8636EE291971CB6400996F76 /* Duel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8636EE631971CB6400996F76 /* Build configuration list for PBXNativeTarget "Duel" */;
+			buildPhases = (
+				8636EE261971CB6400996F76 /* Sources */,
+				8636EE271971CB6400996F76 /* Frameworks */,
+				8636EE281971CB6400996F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Duel;
+			productName = Duel;
+			productReference = 8636EE2A1971CB6400996F76 /* Duel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8636EE511971CB6400996F76 /* DuelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8636EE661971CB6400996F76 /* Build configuration list for PBXNativeTarget "DuelTests" */;
+			buildPhases = (
+				8636EE4E1971CB6400996F76 /* Sources */,
+				8636EE4F1971CB6400996F76 /* Frameworks */,
+				8636EE501971CB6400996F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8636EE581971CB6400996F76 /* PBXTargetDependency */,
+			);
+			name = DuelTests;
+			productName = DuelTests;
+			productReference = 8636EE521971CB6400996F76 /* DuelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8636EE221971CB6400996F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jon Como";
+				TargetAttributes = {
+					8636EE511971CB6400996F76 = {
+						TestTargetID = 8636EE291971CB6400996F76;
+					};
+				};
+			};
+			buildConfigurationList = 8636EE251971CB6400996F76 /* Build configuration list for PBXProject "Duel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8636EE211971CB6400996F76;
+			productRefGroup = 8636EE2B1971CB6400996F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8636EE291971CB6400996F76 /* Duel */,
+				8636EE511971CB6400996F76 /* DuelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8636EE281971CB6400996F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8636EE3A1971CB6400996F76 /* InfoPlist.strings in Resources */,
+				8636EE4D1971CB6400996F76 /* Images.xcassets in Resources */,
+				8636EE4B1971CB6400996F76 /* Spaceship.png in Resources */,
+				8636EE431971CB6400996F76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8636EE501971CB6400996F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8636EE5E1971CB6400996F76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8636EE261971CB6400996F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8636EE401971CB6400996F76 /* DLAppDelegate.m in Sources */,
+				8636EE461971CB6400996F76 /* DLViewController.m in Sources */,
+				8636EE491971CB6400996F76 /* DLMyScene.m in Sources */,
+				8636EE3C1971CB6400996F76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8636EE4E1971CB6400996F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8636EE601971CB6400996F76 /* DuelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8636EE581971CB6400996F76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8636EE291971CB6400996F76 /* Duel */;
+			targetProxy = 8636EE571971CB6400996F76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8636EE381971CB6400996F76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8636EE391971CB6400996F76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8636EE411971CB6400996F76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8636EE421971CB6400996F76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8636EE5C1971CB6400996F76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8636EE5D1971CB6400996F76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8636EE611971CB6400996F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8636EE621971CB6400996F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8636EE641971CB6400996F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duel/Duel-Prefix.pch";
+				INFOPLIST_FILE = "Duel/Duel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8636EE651971CB6400996F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duel/Duel-Prefix.pch";
+				INFOPLIST_FILE = "Duel/Duel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8636EE671971CB6400996F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Duel.app/Duel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duel/Duel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DuelTests/DuelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8636EE681971CB6400996F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Duel.app/Duel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duel/Duel-Prefix.pch";
+				INFOPLIST_FILE = "DuelTests/DuelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8636EE251971CB6400996F76 /* Build configuration list for PBXProject "Duel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8636EE611971CB6400996F76 /* Debug */,
+				8636EE621971CB6400996F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8636EE631971CB6400996F76 /* Build configuration list for PBXNativeTarget "Duel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8636EE641971CB6400996F76 /* Debug */,
+				8636EE651971CB6400996F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8636EE661971CB6400996F76 /* Build configuration list for PBXNativeTarget "DuelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8636EE671971CB6400996F76 /* Debug */,
+				8636EE681971CB6400996F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8636EE221971CB6400996F76 /* Project object */;
+}
