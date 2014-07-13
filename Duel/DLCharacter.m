@@ -40,6 +40,12 @@
 {
     [super update];
     
+    if (self.mode == DLModeDamaged){
+        self.colorBlendFactor = self.colorBlendFactor > 0.5 ? 0 : 1;
+    }else{
+        self.colorBlendFactor = 0;
+    }
+    
     if (!isAnimating)
     {
         if (isBlocking && self.mode == DLModeBlocking){
@@ -110,9 +116,35 @@
     [self queueMode:DLModeAttacking];
 }
 
+-(void)takeDamage
+{
+    if (self.mode == DLModeDamaged) return;
+    
+    [self removeAllActions];
+    
+    self.color = [UIColor redColor];
+    
+    isAnimating = YES;
+    self.mode = DLModeDamaged;
+    [queued removeAllObjects];
+    
+    __weak DLCharacter *weak = self;
+    [self runAction:[SKAction waitForDuration:0.2] completion:^{
+        isAnimating = NO;
+        weak.mode = DLModeIdle;
+    }];
+}
+
 -(void)attack
 {
     [self playAnimationWithFrames:self.animations[2]];
+    
+    __weak DLCharacter *weak = self;
+    [self runAction:[SKAction waitForDuration:0.2] completion:^{
+        if (weak.target.mode != DLModeBlocking){
+            [weak.target takeDamage];
+        }
+    }];
 }
 
 -(void)block

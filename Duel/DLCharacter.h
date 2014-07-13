@@ -12,16 +12,20 @@ typedef enum
 {
     DLModeIdle,
     DLModeBlocking,
-    DLModeAttacking
+    DLModeAttacking,
+    DLModeDamaged
 } DLMode;
 
 @interface DLCharacter : DLObject
 
 @property (nonatomic, assign) DLMode mode;
 
+@property (nonatomic, weak) DLCharacter *target;
+
 -(id)initWithTexturePrefix:(NSString *)prefix;
 
 -(void)inputBlock:(BOOL)down;
 -(void)inputAttack;
+-(void)takeDamage;
 
 @end
