@@ -17,13 +17,26 @@
 		8636EE431971CB6400996F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE411971CB6400996F76 /* Main.storyboard */; };
 		8636EE461971CB6400996F76 /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE451971CB6400996F76 /* DLViewController.m */; };
 		8636EE491971CB6400996F76 /* DLMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE481971CB6400996F76 /* DLMyScene.m */; };
-		8636EE4B1971CB6400996F76 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE4A1971CB6400996F76 /* Spaceship.png */; };
 		8636EE4D1971CB6400996F76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE4C1971CB6400996F76 /* Images.xcassets */; };
 		8636EE541971CB6400996F76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE531971CB6400996F76 /* XCTest.framework */; };
 		8636EE551971CB6400996F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE2D1971CB6400996F76 /* Foundation.framework */; };
 		8636EE561971CB6400996F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636EE311971CB6400996F76 /* UIKit.framework */; };
 		8636EE5E1971CB6400996F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE5C1971CB6400996F76 /* InfoPlist.strings */; };
 		8636EE601971CB6400996F76 /* DuelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE5F1971CB6400996F76 /* DuelTests.m */; };
+		8636EE781971D8F800996F76 /* knight_block_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE6B1971D8F800996F76 /* knight_block_0.png */; };
+		8636EE791971D8F800996F76 /* knight_block_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE6C1971D8F800996F76 /* knight_block_1.png */; };
+		8636EE7A1971D8F800996F76 /* knight_block_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE6D1971D8F800996F76 /* knight_block_2.png */; };
+		8636EE7B1971D8F800996F76 /* knight_block_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE6E1971D8F800996F76 /* knight_block_3.png */; };
+		8636EE7C1971D8F800996F76 /* knight_idle_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE6F1971D8F800996F76 /* knight_idle_0.png */; };
+		8636EE7D1971D8F800996F76 /* knight_idle_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE701971D8F800996F76 /* knight_idle_1.png */; };
+		8636EE7E1971D8F800996F76 /* knight_idle_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE711971D8F800996F76 /* knight_idle_2.png */; };
+		8636EE7F1971D8F800996F76 /* knight_idle_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE721971D8F800996F76 /* knight_idle_3.png */; };
+		8636EE801971D8F800996F76 /* knight_swing_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE731971D8F800996F76 /* knight_swing_0.png */; };
+		8636EE811971D8F800996F76 /* knight_swing_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE741971D8F800996F76 /* knight_swing_1.png */; };
+		8636EE821971D8F800996F76 /* knight_swing_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE751971D8F800996F76 /* knight_swing_2.png */; };
+		8636EE831971D8F800996F76 /* knight_swing_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8636EE761971D8F800996F76 /* knight_swing_3.png */; };
+		8636EE871971D90C00996F76 /* DLCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE861971D90C00996F76 /* DLCharacter.m */; };
+		8636EE8A1971E15D00996F76 /* DLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8636EE891971E15D00996F76 /* DLObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +66,28 @@
 		8636EE451971CB6400996F76 /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
 		8636EE471971CB6400996F76 /* DLMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLMyScene.h; sourceTree = "<group>"; };
 		8636EE481971CB6400996F76 /* DLMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLMyScene.m; sourceTree = "<group>"; };
-		8636EE4A1971CB6400996F76 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		8636EE4C1971CB6400996F76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8636EE521971CB6400996F76 /* DuelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8636EE531971CB6400996F76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8636EE5B1971CB6400996F76 /* DuelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuelTests-Info.plist"; sourceTree = "<group>"; };
 		8636EE5D1971CB6400996F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8636EE5F1971CB6400996F76 /* DuelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuelTests.m; sourceTree = "<group>"; };
+		8636EE6B1971D8F800996F76 /* knight_block_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_block_0.png; sourceTree = "<group>"; };
+		8636EE6C1971D8F800996F76 /* knight_block_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_block_1.png; sourceTree = "<group>"; };
+		8636EE6D1971D8F800996F76 /* knight_block_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_block_2.png; sourceTree = "<group>"; };
+		8636EE6E1971D8F800996F76 /* knight_block_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_block_3.png; sourceTree = "<group>"; };
+		8636EE6F1971D8F800996F76 /* knight_idle_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_idle_0.png; sourceTree = "<group>"; };
+		8636EE701971D8F800996F76 /* knight_idle_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_idle_1.png; sourceTree = "<group>"; };
+		8636EE711971D8F800996F76 /* knight_idle_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_idle_2.png; sourceTree = "<group>"; };
+		8636EE721971D8F800996F76 /* knight_idle_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_idle_3.png; sourceTree = "<group>"; };
+		8636EE731971D8F800996F76 /* knight_swing_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_swing_0.png; sourceTree = "<group>"; };
+		8636EE741971D8F800996F76 /* knight_swing_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_swing_1.png; sourceTree = "<group>"; };
+		8636EE751971D8F800996F76 /* knight_swing_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_swing_2.png; sourceTree = "<group>"; };
+		8636EE761971D8F800996F76 /* knight_swing_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_swing_3.png; sourceTree = "<group>"; };
+		8636EE851971D90C00996F76 /* DLCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCharacter.h; sourceTree = "<group>"; };
+		8636EE861971D90C00996F76 /* DLCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCharacter.m; sourceTree = "<group>"; };
+		8636EE881971E15D00996F76 /* DLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLObject.h; sourceTree = "<group>"; };
+		8636EE891971E15D00996F76 /* DLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +149,7 @@
 		8636EE351971CB6400996F76 /* Duel */ = {
 			isa = PBXGroup;
 			children = (
+				8636EE691971D8F800996F76 /* media */,
 				8636EE3E1971CB6400996F76 /* DLAppDelegate.h */,
 				8636EE3F1971CB6400996F76 /* DLAppDelegate.m */,
 				8636EE411971CB6400996F76 /* Main.storyboard */,
@@ -128,7 +157,10 @@
 				8636EE451971CB6400996F76 /* DLViewController.m */,
 				8636EE471971CB6400996F76 /* DLMyScene.h */,
 				8636EE481971CB6400996F76 /* DLMyScene.m */,
-				8636EE4A1971CB6400996F76 /* Spaceship.png */,
+				8636EE881971E15D00996F76 /* DLObject.h */,
+				8636EE891971E15D00996F76 /* DLObject.m */,
+				8636EE851971D90C00996F76 /* DLCharacter.h */,
+				8636EE861971D90C00996F76 /* DLCharacter.m */,
 				8636EE4C1971CB6400996F76 /* Images.xcassets */,
 				8636EE361971CB6400996F76 /* Supporting Files */,
 			);
@@ -162,6 +194,33 @@
 				8636EE5C1971CB6400996F76 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8636EE691971D8F800996F76 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				8636EE6A1971D8F800996F76 /* knight */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		8636EE6A1971D8F800996F76 /* knight */ = {
+			isa = PBXGroup;
+			children = (
+				8636EE6B1971D8F800996F76 /* knight_block_0.png */,
+				8636EE6C1971D8F800996F76 /* knight_block_1.png */,
+				8636EE6D1971D8F800996F76 /* knight_block_2.png */,
+				8636EE6E1971D8F800996F76 /* knight_block_3.png */,
+				8636EE6F1971D8F800996F76 /* knight_idle_0.png */,
+				8636EE701971D8F800996F76 /* knight_idle_1.png */,
+				8636EE711971D8F800996F76 /* knight_idle_2.png */,
+				8636EE721971D8F800996F76 /* knight_idle_3.png */,
+				8636EE731971D8F800996F76 /* knight_swing_0.png */,
+				8636EE741971D8F800996F76 /* knight_swing_1.png */,
+				8636EE751971D8F800996F76 /* knight_swing_2.png */,
+				8636EE761971D8F800996F76 /* knight_swing_3.png */,
+			);
+			path = knight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +301,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8636EE3A1971CB6400996F76 /* InfoPlist.strings in Resources */,
+				8636EE7E1971D8F800996F76 /* knight_idle_2.png in Resources */,
+				8636EE831971D8F800996F76 /* knight_swing_3.png in Resources */,
+				8636EE821971D8F800996F76 /* knight_swing_2.png in Resources */,
 				8636EE4D1971CB6400996F76 /* Images.xcassets in Resources */,
-				8636EE4B1971CB6400996F76 /* Spaceship.png in Resources */,
+				8636EE7F1971D8F800996F76 /* knight_idle_3.png in Resources */,
 				8636EE431971CB6400996F76 /* Main.storyboard in Resources */,
+				8636EE7B1971D8F800996F76 /* knight_block_3.png in Resources */,
+				8636EE7A1971D8F800996F76 /* knight_block_2.png in Resources */,
+				8636EE7C1971D8F800996F76 /* knight_idle_0.png in Resources */,
+				8636EE801971D8F800996F76 /* knight_swing_0.png in Resources */,
+				8636EE791971D8F800996F76 /* knight_block_1.png in Resources */,
+				8636EE7D1971D8F800996F76 /* knight_idle_1.png in Resources */,
+				8636EE811971D8F800996F76 /* knight_swing_1.png in Resources */,
+				8636EE781971D8F800996F76 /* knight_block_0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +333,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8636EE871971D90C00996F76 /* DLCharacter.m in Sources */,
 				8636EE401971CB6400996F76 /* DLAppDelegate.m in Sources */,
+				8636EE8A1971E15D00996F76 /* DLObject.m in Sources */,
 				8636EE461971CB6400996F76 /* DLViewController.m in Sources */,
 				8636EE491971CB6400996F76 /* DLMyScene.m in Sources */,
 				8636EE3C1971CB6400996F76 /* main.m in Sources */,

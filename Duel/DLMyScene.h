@@ -10,4 +10,6 @@
 
 @interface DLMyScene : SKScene
 
+@property (nonatomic, strong) DLCharacter *player;
+
 @end
