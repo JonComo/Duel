@@ -99,7 +99,7 @@
 
 -(void)idle
 {
-    [self playAnimationWithFrames:self.animations[0]];
+    [self playAnimationWithFrames:self.animations[0] times:@[@(0.1), @(0.25), @(0.1), @(0.25)]];
 }
 
 -(void)inputBlock:(BOOL)down
@@ -137,10 +137,10 @@
 
 -(void)attack
 {
-    [self playAnimationWithFrames:self.animations[2]];
+    [self playAnimationWithFrames:self.animations[2] times:@[@(0.1), @(0.25), @(0.1), @(0.2)]];
     
     __weak DLCharacter *weak = self;
-    [self runAction:[SKAction waitForDuration:0.2] completion:^{
+    [self runAction:[SKAction waitForDuration:0.35] completion:^{
         if (weak.target.mode != DLModeBlocking){
             [weak.target takeDamage];
         }
@@ -149,17 +149,24 @@
 
 -(void)block
 {
-    [self playAnimationWithFrames:self.animations[1]];
+    [self playAnimationWithFrames:self.animations[1] times:@[@(0.1), @(0.1), @(0.2), @(0.3)]];
 }
 
--(void)playAnimationWithFrames:(NSArray *)frames
+-(void)playAnimationWithFrames:(NSArray *)frames times:(NSArray *)times
 {
     [self removeAllActions];
     
     isAnimating = YES;
     
-    SKAction *animation = [SKAction animateWithTextures:frames timePerFrame:0.1];
-    [self runAction:[SKAction sequence:@[animation, [SKAction runBlock:^{ isAnimating = NO; }]]]];
+    NSMutableArray *frameActions = [NSMutableArray array];
+    
+    for (int i = 0; i<frames.count; i++){
+        [frameActions addObject:[SKAction animateWithTextures:@[frames[i]] timePerFrame:[times[i] floatValue]]];
+    }
+    
+    [frameActions addObject:[SKAction runBlock:^{ isAnimating = NO; }]];
+
+    [self runAction:[SKAction sequence:frameActions]];
 }
 
 @end
